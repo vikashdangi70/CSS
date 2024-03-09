@@ -1,0 +1,29 @@
+p{
+    color: brown;
+     text-align: center;      /*assignment que.02 answer*/
+    line-height: 30px;
+}
+h1{
+    text-align: center;
+    color:rgb(255,0,0);                     /*que.3*/
+    font-family: georgia;                      /*ans.no.5 exist in this line  */
+}
+h3{
+    text-align: center;
+    color: black;                              /*que.4 */
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+button{
+    background-color: white;
+    color: blueviolet;
+}
+textarea{
+    color: black;
+}
+span{
+   
+    text-decoration: underline;
+}
