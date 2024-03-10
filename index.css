@@ -1,48 +1,22 @@
-.upvote{
-    background-color: green ;
-    color:rgb(255,255,255)
+*{
+    background-color: wheat;
+}
+table:hover{
+    color: aquamarine;
+}
+table {
+    border-color: red;
+    background-color: yelloe;
+}
+button{
+    border:2px solid rgb(0, 0, 0);
+    border-radius:30px;
+    background-color:rgb(200,200,0);
+    padding-inline-end: 25px;
+}
+p{
+    background-color: lightblue;
+    border-radius: 30px;
+    padding-inline-start: 75px;
 }
 
-    
-.follow{
-    color: maroon;
-}
-div > input{
-    background-color: darksalmon;
-    color: black;
-    font-style: italic;
-}
-input[type="text"]{
-    color: yellow;
-}
-input[type="password"]{
-    color: red;
-}
-input[type]{
-    background-color:pink;
-}
-
-#myid p{
-    color: orange;
-}
-    
-/* pseudo class start */
-
-button:hover{
-    color: brown;
-    background-color: antiquewhite;
-}
-
-h1+h3:hover{
-    text-decoration: underline;
-}
-h1::first-letter{
-    color: red;
-}
-p::first-line{
-    color:blue;
-}
-div{
-   background-color: rgb(25,25,25)
-        /*inheritance i.e. parent nod ki quality child node leti hai*/
-}
