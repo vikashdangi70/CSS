@@ -1,0 +1,10 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(244,2,245);
+    margin: 10px auto;
+    background-image: url("roadaloneboy.jpg");
+   /* background-size: contain;*/
+   background-size:cover;
+   color: white;
+}

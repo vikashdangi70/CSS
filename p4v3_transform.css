@@ -1,0 +1,28 @@
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200;
+    height: 150;
+    text-align: center;
+    background-color: skyblue;
+    border: 2px solid black;
+    margin: 10px;
+}
+div:nth-of-type(2n){
+    background-color: brown;
+}
+div:nth-of-type(3n){
+    background-color:blue;
+}
+
+/* transform */
+
+#one{
+    transform: rotate(270deg);
+}
+
+/* v3 transform scale */
+#two{
+    transform:scale(0.5 ,1.5);   /*the i write x,y form in 2d plane*/
+}
