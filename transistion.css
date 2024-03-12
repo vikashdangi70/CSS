@@ -1,0 +1,29 @@
+/*div{
+    height: 300px;
+    width: 250px;
+    background-color: red;
+    transition: 1s;      }  /*duration between 2 states*/
+
+
+
+/*
+div:hover{
+    background-color: black;
+    border-radius: 50%;
+}
+*/
+div{
+    height: 100px;
+    width: 150px;
+    background-color:orange;
+    margin:0 auto; 
+    margin-top: 10px;
+    transition: margin-top 1s ease-in 2s;
+  
+}  
+div:hover{
+    margin-top: 250px;
+    background-color: darkred;
+
+}
+
