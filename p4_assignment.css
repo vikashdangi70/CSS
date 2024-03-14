@@ -1,0 +1,60 @@
+ 
+ /*answer no 1*/
+#box1{
+    width:100px;
+    height:100px;
+    background:green;
+    transition: width 2s ease-in 0.5s;
+    
+}
+#box1:hover{
+    width:600px;
+}
+  /*asnwer no. 1 is completed*/
+
+  /*answer of que.no.2*/
+
+#box2{
+
+    width:100px;
+    height:100px;
+    background:red;
+    transform: translateX(200px);
+    transform: translateY(200px);
+    transform: rotate(90deg);
+
+}
+/*ans 2 is completed*/
+
+/*ans of que no.3*/
+
+#box3{
+    width:100px;
+    height:100px;
+    background:lightblue;
+    transform: skewX(20deg);
+}
+
+/*ans 3 is completed*/
+
+/*ans 4 is start */
+
+#box4{
+    width:100px;
+    height:100px;
+    background:lightgreen;
+    box-shadow: 2px 2px 5px green;
+}
+/*ans .4 is completed*/
+
+/*ans 5 start*/
+
+#myPic{
+    width:200px;
+    height:200px;
+    background:pink;
+    background-image: url("man.jpg");
+    background-size: cover;
+    opacity: 50%;
+    
+}
